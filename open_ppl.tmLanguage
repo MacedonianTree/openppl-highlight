@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>oppl</string>
+		<string>ohf</string>
 	</array>
 	<key>name</key>
 	<string>Open PPL</string>

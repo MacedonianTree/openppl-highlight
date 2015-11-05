@@ -2,7 +2,7 @@
 ---
 name: Open PPL
 scopeName: source.oppl
-fileTypes: [oppl]
+fileTypes: [oppl, ohf]
 uuid: dcc6a4b3-548c-4de3-aa0b-d99013285291
 
 patterns:
