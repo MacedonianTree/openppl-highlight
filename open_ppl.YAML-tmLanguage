@@ -8,7 +8,7 @@ uuid: dcc6a4b3-548c-4de3-aa0b-d99013285291
 patterns:
 - comment: Hands lists
   name: variable.parameter.oppl
-  match: 'list([A-Z0-9][A-Za-z0-9_]+)'
+  match: 'list[A-Z0-9]([A-Za-z0-9_]+)?\b'
 
 - comment: Function
   name: entity.name.function.oppl

@@ -15,7 +15,7 @@
 			<key>comment</key>
 			<string>Hands lists</string>
 			<key>match</key>
-			<string>list([A-Z0-9][A-Za-z0-9_]+)</string>
+			<string>list[A-Z0-9]([A-Za-z0-9_]+)?\b</string>
 			<key>name</key>
 			<string>variable.parameter.oppl</string>
 		</dict>
