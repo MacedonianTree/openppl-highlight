@@ -12,7 +12,13 @@ patterns:
 
 - comment: Function
   name: entity.name.function.oppl
-  match: 'f\$([A-Za-z][A-Za-z0-9_]+)'
+  match: 'f\$([A-Za-z0-9][A-Za-z0-9_]+)(And)([A-Za-z0-9_]+)'
+  captures:
+    '3': {name: constant.language.oppl}
+
+- comment: Function
+  name: entity.name.function.oppl
+  match: 'f\$([A-Za-z0-9][A-Za-z0-9_]+)'
 
 - comment: Comments
   name: comment.line.number-sign.frontmatter.oppl
