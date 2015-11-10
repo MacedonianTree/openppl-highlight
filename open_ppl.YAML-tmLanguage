@@ -6,6 +6,11 @@ fileTypes: [oppl, ohf]
 uuid: dcc6a4b3-548c-4de3-aa0b-d99013285291
 
 patterns:
+- comment: Comments
+  name: comment.block.documentation.oppl
+  begin: '/\*'
+  end: '\*/'
+
 - comment: Hands lists
   name: variable.parameter.oppl
   match: 'list[A-Z0-9]([A-Za-z0-9_]+)?\b'

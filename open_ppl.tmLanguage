@@ -12,6 +12,16 @@
 	<key>patterns</key>
 	<array>
 		<dict>
+			<key>begin</key>
+			<string>/\*</string>
+			<key>comment</key>
+			<string>Comments</string>
+			<key>end</key>
+			<string>\*/</string>
+			<key>name</key>
+			<string>comment.block.documentation.oppl</string>
+		</dict>
+		<dict>
 			<key>comment</key>
 			<string>Hands lists</string>
 			<key>match</key>
