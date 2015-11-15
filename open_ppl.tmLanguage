@@ -65,7 +65,7 @@
 			<key>comment</key>
 			<string>Comments</string>
 			<key>match</key>
-			<string>^\/\/.*</string>
+			<string>\/\/.*</string>
 			<key>name</key>
 			<string>comment.line.number-sign.frontmatter.oppl</string>
 		</dict>
@@ -89,7 +89,7 @@
 			<key>comment</key>
 			<string>Other functions</string>
 			<key>match</key>
-			<string>\b(nhandshi|ncallbets|didrais|nbetstocall|betposition|didcall|didchec|nplayersround|handrank169|handrank1326|handrank2652)\b</string>
+			<string>\b(ranklocommon|rankhicommon|rankbitscommon|ncommoncardsknown|nstraightfillcommon|nsuitedcommon|nhandshi|ncallbets|didrais|nbetstocall|betposition|didcall|didchec|nplayersround|handrank169|handrank1326|handrank2652)\b</string>
 			<key>name</key>
 			<string>support.function.oppl</string>
 		</dict>
