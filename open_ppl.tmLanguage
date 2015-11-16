@@ -97,7 +97,7 @@
 			<key>comment</key>
 			<string>PT variable functions</string>
 			<key>match</key>
-			<string>\bpt_(bb_fold_to_steal|sb_fold_to_steal|bb_3bet_vs_steal|sb_3bet_vs_steal|3bet|rfi|hands|vpip|pfr)_(smallblind|bigblind|firstraiser)\b</string>
+			<string>\bpt_(fold_to_4bet|fold_to_3bet|bb_fold_to_steal|sb_fold_to_steal|bb_3bet_vs_steal|sb_3bet_vs_steal|3bet|rfi|hands|vpip|pfr)_(raischair|smallblind|bigblind|firstraiser)\b</string>
 			<key>name</key>
 			<string>support.function.oppl</string>
 		</dict>
@@ -121,7 +121,7 @@
 			<key>comment</key>
 			<string>Prwin, prlos...</string>
 			<key>match</key>
-			<string>\$pr(los|win)</string>
+			<string>\$pr(los|win|tie)</string>
 			<key>name</key>
 			<string>support.function.oppl</string>
 		</dict>
@@ -132,6 +132,22 @@
 			<string>vs\$</string>
 			<key>name</key>
 			<string>support.function.oppl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>User defined variables</string>
+			<key>match</key>
+			<string>\buser[A-Za-z0-9_]+\b</string>
+			<key>name</key>
+			<string>variable.parameter.oppl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Memory Symbols</string>
+			<key>match</key>
+			<string>\bme_(st|re)[A-Za-z0-9_]+?(?=(f\$|\b))</string>
+			<key>name</key>
+			<string>variable.parameter.oppl</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

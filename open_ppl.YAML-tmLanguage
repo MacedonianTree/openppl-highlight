@@ -47,7 +47,7 @@ patterns:
 
 - comment: PT variable functions
   name: support.function.oppl
-  match: '\bpt_(bb_fold_to_steal|sb_fold_to_steal|bb_3bet_vs_steal|sb_3bet_vs_steal|3bet|rfi|hands|vpip|pfr)_(smallblind|bigblind|firstraiser)\b'
+  match: '\bpt_(fold_to_4bet|fold_to_3bet|bb_fold_to_steal|sb_fold_to_steal|bb_3bet_vs_steal|sb_3bet_vs_steal|3bet|rfi|hands|vpip|pfr)_(raischair|smallblind|bigblind|firstraiser)\b'
 
 - comment: Hands cards
   name: constant.language.oppl
@@ -59,9 +59,17 @@ patterns:
 
 - comment: Prwin, prlos...
   name: support.function.oppl
-  match: '\$pr(los|win)'
+  match: '\$pr(los|win|tie)'
 
 - comment: Vs
   name: support.function.oppl
   match: 'vs\$'
+
+- comment: User defined variables
+  name: variable.parameter.oppl
+  match: '\buser[A-Za-z0-9_]+\b'
+
+- comment: Memory Symbols
+  name: variable.parameter.oppl
+  match: '\bme_(st|re)[A-Za-z0-9_]+?(?=(f\$|\b))'
 ...
