@@ -43,11 +43,11 @@ patterns:
 
 - comment: Other functions
   name: support.function.oppl
-  match: '\b(ranklocommon|rankhicommon|rankbitscommon|ncommoncardsknown|nstraightfillcommon|nsuitedcommon|nhandshi|ncallbets|didrais|nbetstocall|betposition|didcall|didchec|nplayersround|handrank169|handrank1326|handrank2652)\b'
+  match: '\b(nstraight|nstraightcommon|nstraightfill|trankcommon|nrankedcommon|twopair|pokervalcommon|ispair|rankloplayer|rankhiplayer|betround|didalliround[0-4]|didcallround[0-4]|didchecround[0-4]|didfoldround[0-4]|didbetsizeround[0-4]|didraisround4|didswaground4|nopponentsplaying|ranklocommon|rankhicommon|rankbitscommon|ncommoncardsknown|nstraightfillcommon|nsuitedcommon|nhandshi|ncallbets|didrais|nbetstocall|betposition|didcall|didchec|nplayersround|handrank169|handrank1326|handrank2652)\b'
 
 - comment: PT variable functions
   name: support.function.oppl
-  match: '\bpt_(fold_to_4bet|fold_to_3bet|bb_fold_to_steal|sb_fold_to_steal|bb_3bet_vs_steal|sb_3bet_vs_steal|3bet|rfi|hands|vpip|pfr)_(raischair|smallblind|bigblind|firstraiser)\b'
+  match: '\bpt_(flop_fold_to_cbet|sb_rfi|btn_rfi|co_rfi|mp2_rfi|mp3_rfi|fold_to_4bet|fold_to_3bet|bb_fold_to_steal|sb_fold_to_steal|bb_3bet_vs_steal|sb_3bet_vs_steal|3bet|rfi|hands|vpip|pfr)_(raischair|smallblind|bigblind|headsup|firstraiser)\b'
 
 - comment: Hands cards
   name: constant.language.oppl
@@ -59,7 +59,7 @@ patterns:
 
 - comment: Prwin, prlos...
   name: support.function.oppl
-  match: '\$pr(los|win|tie)'
+  match: '\$?pr(los|win|tie)'
 
 - comment: Vs
   name: support.function.oppl
