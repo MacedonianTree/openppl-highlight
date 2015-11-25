@@ -89,7 +89,7 @@
 			<key>comment</key>
 			<string>Other functions</string>
 			<key>match</key>
-			<string>\b(nstraight|nstraightcommon|nstraightfill|trankcommon|nrankedcommon|twopair|pokervalcommon|ispair|rankloplayer|rankhiplayer|betround|didalliround[0-4]|didcallround[0-4]|didchecround[0-4]|didfoldround[0-4]|didbetsizeround[0-4]|didraisround4|didswaground4|nopponentsplaying|ranklocommon|rankhicommon|rankbitscommon|ncommoncardsknown|nstraightfillcommon|nsuitedcommon|nhandshi|ncallbets|didrais|nbetstocall|betposition|didcall|didchec|nplayersround|handrank169|handrank1326|handrank2652)\b</string>
+			<string>\b(pokerval|potcommon|nstraight|nstraightcommon|nstraightfill|trankcommon|nrankedcommon|twopair|pokervalcommon|ispair|rankloplayer|rankhiplayer|betround|didalliround[0-4]|didcallround[0-4]|didchecround[0-4]|didfoldround[0-4]|didbetsizeround[0-4]|didraisround4|didswaground4|nopponentsplaying|ranklocommon|rankhicommon|rankbitscommon|ncommoncardsknown|nstraightfillcommon|nsuitedcommon|nhandshi|ncallbets|didrais|nbetstocall|betposition|didcall|didchec|nplayersround|handrank169|handrank1326|handrank2652)\b</string>
 			<key>name</key>
 			<string>support.function.oppl</string>
 		</dict>
